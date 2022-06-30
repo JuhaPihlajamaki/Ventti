@@ -1,0 +1,41 @@
+**************************************************************************************************
+*                                  Tervetuloa pelaamaan venttia                                  *
+**************************************************************************************************
+*                                                                                                *
+* Ventissa on tarkoitus saada 21 pistetta, menematta kuitenkaan yli 21 pisteen.                  *
+**************************************************************************************************
+*                                                                                                *
+* Assa on pelissa aina joko 1 tai 14 pistetta. Jos kadessasi on assa ja pisteet menevat yli      *
+* 21 pisteen, assa muutetaan automaattisesti 1 pisteeseen                                        *
+*                                                                                                *
+**************************************************************************************************
+* Korttien yhteenlasketun arvon mennessa yli 21 pistetta, pelaaja haviaa heti, eika jakaja       *
+* veda ollenkaan kortteja.                                                                       *
+**************************************************************************************************
+* Jos pelaajan korttien yhteenlaskettu pistemaara on tasan 21 pistetta, niin pelaaja voittaa     *
+* valittomasti, eika jakaja veda ollenkaan kortteja.                                             *
+**************************************************************************************************
+* Pelaaja voi olla ottamatta lisaa kortteja, pisteiden ollessa alle 21.                          *
+* Silloin vuoro siirtyy jakajalle. Jakaja yrittaa saada saman tai paremman pistemaaran,          *
+* kuitenkin niin etta jakajan pisteet ei mene yli 21 pisteen.                                    *
+* Jos jakaja saa saman pistemaaran, tai paremman, kun pelaaja, niin jakaja voittaa.              *
+**************************************************************************************************
+* Pelaajan ventti on 21 pistetta. Jakajan ventti on 20 tai 21 pistetta.                          *
+**************************************************************************************************
+*                                                                                                *
+*                                   Peliin kulku                                                 *
+* Pelaajalle jaetaan yksi kortti, ensimmaisen kortin perusteella pelaajan tulee valita panos     *
+* kyseiselle kierrokselle.                                                                       *
+*                                                                                                *
+* Jakaja kysyy, haluatko uuden kortin, niin kauvan, kun pisteet ovat alle 21 pistetta, tai       *
+* kunnes pelaaja ei enaa halua uutta korttia.                                                    *
+*                                                                                                *
+* Pelia voit jatkaa, niin kauvan, kun sinulla on rahaa jaljella. Alussa rahaa on 50 euroa        *
+*                                                                                                *
+*                 Toivotamme hyvia pelihetkia, pelaathan vastuullisesti.                         *
+**************************************************************************************************
+*                                                                                                *
+*                   Juha Pihlajamaki SeAMK/Centria ammattikorkeakoulut                           *
+*                           C++ ohjelmointikurssi kesa 2022                                      *
+*                                                                                                *
+**************************************************************************************************
