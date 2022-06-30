@@ -21,7 +21,7 @@ void Pelaaja::Readme() {
 	cin >> ohjeet;
 	if(ohjeet=="k"|| ohjeet == "K"){
 	string line;
-	ifstream myfile("ReadMe.txt");
+	ifstream myfile("ohjeet.txt");
 	if (myfile.is_open())
 	{
 		while (getline(myfile, line))
@@ -111,7 +111,7 @@ void Pelaaja::TulostaKortit() {
 void Pelaaja::TulostaKortit() {
 	
 
-	///// Tulostetaan ensimm‰inen rivi.
+	///// Tulostetaan ensimm√§inen rivi.
 	for (int i = 1; i <= KasiMaara; i++) {
 		cout << " *********** ";
 	}
@@ -130,7 +130,7 @@ void Pelaaja::TulostaKortit() {
 	}
 
 
-	///// Tulostetaan nelj‰s rivi eli maa;
+	///// Tulostetaan nelj√§s rivi eli maa;
 	cout << endl;
 	for (int i = 1; i <= KasiMaara; i++) {
 		string maa;
@@ -163,7 +163,7 @@ void Pelaaja::TulostaKortit() {
 		
 	}
 
-	///// Tulostetaan seitsem‰s rivi.
+	///// Tulostetaan seitsem√§s rivi.
 	cout << endl;
 	for (int i = 1; i <= KasiMaara; i++) {
 		if (KasiArvo[i - 1] == 14) { cout << " *    1    * "; }
@@ -260,7 +260,7 @@ void Pelaaja::AsetaPanos() {
 	
 }
 
-// Peli etenee t‰ss‰ j‰rjestyksess‰
+// Peli etenee t√§ss√§ j√§rjestyksess√§
 
 void Pelaaja::Alkutoimet() {
 	
