@@ -1,0 +1,19 @@
+Pelissä pitää olla ohjeet.txt samassa kansiossa, kun varsinaiset kooditiedostot.
+Peli antaa toimivuuteen aika hyvät ohjeet pelin alussa.
+
+Pelissä pelataan 21 pisteen venttiä. 
+
+Alussa peli kysyy halutaanko lukea ohjeet, jos vastaus on k, niin ohjeet.txt tiedoston sisältämä teksti tulostetaan näytölle.
+Alussa luodaan 52 kortin pakka, joka sekoitetaan, vaihtamalla korttien paikkoja 1000 kertaa satunnaisesti.
+Kortit jaataan alusta KorttiArvo[0], KorttiMaa[0] alkaen.
+Kierroksen jälkeen pakka sekoitetaan.
+Jaetaan pelaajalle yksi kortti ja tulostetaan se.
+Kysytään panos kierrokselle.
+Kysytään, haluaako pelaaja ottaa uuden kortin.
+Jos ei, niin jakaja vetää kortteja.
+Jos kyllä, niin otetaan yksi kortti lisää.
+peli etenee ihan tavallisen korttipelin sääntöjen mukaan.
+jos pelaajalla tai jakajalla on ässä kädessä ja pisteet menee yli 21 pisteen, niin muutetaan ässän arvo 14--->1.
+
+Pelissä on kaksi oliota, Juha ja Jakaja, jolla molemmilla on omat käsikortit ym.
+
