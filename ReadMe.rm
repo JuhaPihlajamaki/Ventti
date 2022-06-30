@@ -17,3 +17,6 @@ jos pelaajalla tai jakajalla on ässä kädessä ja pisteet menee yli 21 pisteen
 
 Pelissä on kaksi oliota, Juha ja Jakaja, jolla molemmilla on omat käsikortit ym.
 
+Pelissä on tarkoituksella tehtyjä viiveitä, jotta peli saadaan näyttämään mahdollisimman hyvin pelaajalle.
+Jos peliä haluaa hidastaa vielä enemmän, että ehtii rauhassa katsoa, tekstit ym, niin Pelaaja.cpp tiedostossa on rivillä 13 kohta "Sleep(1000);" eli yhden sekuntin, 
+sitä muuttamalla isommaksi saa koko pelin toimimaan hitaammin, viiveet kasvaa.
